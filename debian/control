@@ -1,0 +1,12 @@
+Source: count-files
+Section: utils
+Priority: optional
+Maintainer: Bogdan Boiprav <bogdanbojprav@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+
+Package: count-files
+Architecture: all
+Depends: ${misc:Depends}
+Description: Count files in /etc
+ A Bash script that counts files in /etc.
