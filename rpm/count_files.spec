@@ -16,7 +16,7 @@ This is a script that counts files in /etc.
 
 %install
 mkdir -p %{buildroot}/%{_bindir}
-install -m 0755 %{SOURCE0} %{buildroot}/%{_bindir}/count_files.sh
+install -m 0755 %{SOURCE0} %{buildroot}/%{_bindir}/count_files
 
 %files
-%{_bindir}/count_files.sh
+%{_bindir}/count_files
